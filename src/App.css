@@ -41,3 +41,55 @@
 width: 50px;
 
 }
+
+.header-wraper {
+  position: relative;
+  background: url(background-pic.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 92vh
+}
+
+.main-info{
+  display: flex;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.main-info h1{
+  font-size: 45px;
+  font: arial;
+  color: orange;
+  text-transform: uppercase;
+}
+
+.typed-text{
+font-size: 24px;
+color: white;
+
+}
+
+.contact-btn{
+border: 1px solid red;
+border-radius: 0;
+padding:2px 5px 2px 5px;
+text-transform: uppercase;
+color: white;
+
+}
+
+.tsparticles-canvas-el{
+  position: absolute;
+  height:100vh;
+  width:100vh;
+  z-index: 1;
+
+}
