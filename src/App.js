@@ -2,12 +2,13 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from './components/Navbar';
 import Header from './components/Header';
+import Intro from './components/Intro';
 import Particles from 'react-particles-js';
 
 function App() {
   return (
     <>
-    <Particles
+   <Particles
     params={{
       particles:{
         number: {
@@ -19,9 +20,10 @@ function App() {
         }
       }
     }}
-    />
+    /> 
    <Navbar/>
    <Header/>
+   <Intro/>
     </>
   );
 }

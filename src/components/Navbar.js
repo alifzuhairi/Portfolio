@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from "../logo.png"
 
 const Navbar = () => {
     return (
@@ -15,7 +14,7 @@ const Navbar = () => {
     <ul className="navbar-nav ml-auto">
       
       <li className="nav-item">
-        <a className="nav-link" href="#">About Me</a>
+        <a className="nav-link" href="#Intro">About Me</a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="#">Services</a>
