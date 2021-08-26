@@ -174,16 +174,28 @@ box:hover {
   z-index: var(--z-back);
 }
 
-.skill_barreact{
+.skill_barhtml{
   width: 80%
 }
-.skill_barpy{
+.skill_barcss{
   width: 65%
 }
-.skill_barphp{
+.skill_barjs{
   width: 75%
 }
+.skill_barreact{
+  width: 70%
+}
+.skill_barpy{
+  width: 55%
+}
+.skill_barphp{
+  width: 70%
+}
 .skill_barmysql{
+  width: 60%
+}
+.skill_bargit{
   width: 70%
 }
 
